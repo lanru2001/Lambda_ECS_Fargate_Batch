@@ -1,4 +1,7 @@
+# get the bucket and the file key from the s3 event and you send these 2 informations to the queue
+
 import boto3
+
 s3 = boto3.resource('s3')
 sqs = boto3.client('sqs')
 queue_url = 'your_queue_url'
