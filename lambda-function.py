@@ -1,10 +1,10 @@
 # get the bucket and the file key from the s3 event and you send these 2 informations to the queue
 
 # """  Once the function coded, you have to trigger it with the s3 event. In the ‘Designer’ section click on ‘add trigger’, 
-choose S3, and indicate the bucket you want your lambda function to be triggered when something is uploaded on it. 
-The prefix and suffix are useful to filter which files must trigger the function. 
-If you want to trigger only when a csv file is upload in a directory called data, just indicate in suffix .csv and in prefix /data . 
-Then click ‘add’ and your trigger is now ready.
+# choose S3, and indicate the bucket you want your lambda function to be triggered when something is uploaded on it. 
+# The prefix and suffix are useful to filter which files must trigger the function. 
+# If you want to trigger only when a csv file is upload in a directory called data, just indicate in suffix .csv and in prefix /data . 
+# Then click ‘add’ and your trigger is now ready."""
 
 
 import boto3"""
